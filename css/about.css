@@ -14,35 +14,6 @@
     line-height: 1.8;
 }
 
-.hobby-section{
-    padding: 50px 9%;
-    text-align: center;
-}
-
-.hobby-container{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.hobby-box{
-    background: #111;
-    padding: 20px;
-    border-radius: 10px;
-    width: 30%;
-}
-
-.hobby-box h4{
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.hobby-box p{
-    font-size: 1rem;
-    color: #ccc;
-}
-
 /* Zorgt dat de hele sectie in het midden komt */
 .about-art-section {
     margin-top: 50px;
@@ -117,3 +88,71 @@
     filter: drop-shadow(0 0 15px rgba(139, 69, 55, 0.9));
     transform: scale(1.02);
 }
+
+footer{
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.hobby-box {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center; /* Centreert de tekst */
+}
+
+
+.hobby-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    align-items: flex-start; /* Voeg dit toe */
+}
+
+.hobby-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(139, 69, 55, 0.4);
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: all 0.3s ease;
+
+    height: auto; /* Voeg dit toe */
+}
+
+.hobby-card:hover {
+    transform: translateY(-10px);
+    border-color: rgba(139, 69, 55, 1);
+    box-shadow: 0 0 30px rgba(139, 69, 55, 0.5);
+}
+
+.hobby-grid{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 30px auto;
+}
+
+.hobby-card span {
+    color: #e27d60;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.hobby-card img {
+    width: 110%;
+    height: 200px;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 15px;
+    transition: all 0.4s ease;
+    /* De glow die de lijnen van je tekening laat 'stralen' */
+    filter: drop-shadow(0 0 8px rgba(139, 69, 55, 0.6));
+}
+

@@ -39,5 +39,10 @@
     color: #ccc;
 }
 
-
+footer{
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
   

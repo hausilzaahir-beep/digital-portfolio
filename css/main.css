@@ -221,3 +221,44 @@ body {
     background-attachment: fixed; /* De gloed blijft staan als je scrolt */
     overflow-x: hidden; /* Voorkomt dat je per ongeluk naar opzij scrolt */
 }
+
+/* De sectie zelf wat ademruimte geven */
+#recent-work {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* De container waar de kaarten in staan (naast elkaar) */
+.highlight-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Zorgt dat ze op mobiel onder elkaar schuiven */
+    margin-top: 20px;
+}
+
+/* De stijl van de kaartjes zelf */
+.mini-card {
+    background: #1a1a1a; /* Zelfde donkere kleur als je portfolio */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+    border: 1px solid #333;
+}
+
+/* De knop in het kaartje (als die erin zit) */
+.mini-card a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #ff6347; /* Of jouw eigen accentkleur */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer{
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
